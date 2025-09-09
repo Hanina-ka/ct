@@ -1,6 +1,25 @@
-streamlit
-pdfplumber
-sentence-transformers
-faiss-cpu
-transformers
-langchain
+# Sentence Transformers
+sentence-transformers==2.2.2
+
+# PyTorch
+torch==2.8.0
+
+# FAISS CPU (for embeddings / similarity search)
+faiss-cpu==1.12.0
+
+# Transformers (for NLP models)
+transformers==4.32.0
+
+# PDF processing
+pdfplumber==0.10.1
+
+# Streamlit
+streamlit==1.26.0
+
+# Rich logging
+rich==14.1.0
+
+# Markdown support
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
