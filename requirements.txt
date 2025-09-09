@@ -1,29 +1,26 @@
-# Streamlit and logging
-streamlit==1.26.0
-rich==13.5.2          # compatible with Streamlit 1.26.0
-
-# Sentence Transformers and NLP
+# ML / NLP
 sentence-transformers==2.2.2
-transformers==4.32.0
 torch==2.8.0
 faiss-cpu==1.12.0
+transformers==4.32.0
 
 # PDF processing
 pdfplumber==0.10.1
-pdfminer.six==20221105
 pypdfium2>=4.18.0
 Pillow>=9.1
 
-# Markdown support
+# Streamlit
+streamlit==1.25.0
+
+# Logging / Markdown
+rich==13.3.5
 markdown-it-py==4.0.0
 mdurl==0.1.2
 pygments==2.19.2
 
-# Additional useful packages
-numpy>=1.26.0
-scipy
+# Utilities
+numpy
 scikit-learn
+scipy
 nltk
-tqdm
-sentencepiece
 huggingface-hub
